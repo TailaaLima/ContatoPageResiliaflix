@@ -15,16 +15,34 @@ h2 {
     text-shadow: 1px 2px 2px black;
 }
 
-ul {
-    text-align: center;
-    justify-content: space-between;
+h4 {
     text-shadow: 1px 2px 2px black;
+    display: block;
+}
+
+.contato {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 15%;
+    border: 2px solid red;
+}
+
+.foto {
+    width: 8%;
 }
 
 a {
-    color: rgb(164, 164, 247)
+    color: rgb(164, 164, 247);
+    display: block;
+    width: 20%;
 }
 
-.listaContato {
-    margin-top: 4%;
+.img-linkedin {
+    width: 78%;
+    height: 47%;
+}
+
+.img-github {
+    width: 78%;
+    height: 47%;
 }
