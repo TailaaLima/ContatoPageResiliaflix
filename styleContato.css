@@ -1,0 +1,30 @@
+body {
+    background-image: url(image.jpg);
+    background-attachment: local;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+}
+
+ul {
+    text-align: center;
+    justify-content: space-between;
+    text-shadow: 1px 2px 2px black;
+}
+
+a {
+    color: rgb(164, 164, 247)
+}
+
+.listaContato {
+    margin-top: 4%;
+}
