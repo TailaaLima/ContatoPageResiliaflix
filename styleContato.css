@@ -20,15 +20,10 @@ h4 {
     display: block;
 }
 
-.contato {
-    display: flex;
-    margin-left: 10%;
-    margin-right: 15%;
-    border: 2px solid red;
-}
-
 .foto {
     width: 8%;
+    height: 8%;
+    border-radius: 50%;
 }
 
 a {
@@ -37,12 +32,36 @@ a {
     width: 20%;
 }
 
-.img-linkedin {
-    width: 78%;
-    height: 47%;
+.box {
+    display: flex;
+    width: 70%;
 }
 
-.img-github {
-    width: 78%;
-    height: 47%;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formatacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    background: black;
+}
+
+.link {
+    display: flex;
+    width: 300px;
+    height: 50px;
+}
+
+.bi-linkedin {
+    color: rgb(11, 57, 192);
+}
+
+.bi-github {
+    color: seashell;
 }
